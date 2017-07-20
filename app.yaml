@@ -1,0 +1,32 @@
+runtime: php55
+api_version: 1
+threadsafe: true
+
+handlers:
+
+- url: /css
+  static_dir: public/css
+
+- url: /js
+  static_dir: public/js
+
+- url: /img
+  static_dir: public/img
+
+- url: /fonts
+  static_dir: public/fonts
+
+- url: /_ah/push-handlers/rcv
+  script: public/rcv.php
+  
+- url: /ac
+  script: public/autocomplete.php
+
+- url: /search
+  script: public/search.php
+
+- url: /loaderio-6ef1fec650deebae4aefc8d649928e60/
+  script: public/loader.php
+
+- url: .*
+  script: public/main.php

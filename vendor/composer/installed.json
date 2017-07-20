@@ -1,0 +1,60 @@
+[
+    {
+        "name": "tomwalder/php-appengine-search",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tomwalder/php-appengine-search.git",
+            "reference": "e34a7f6ddf2f5e8dc51487562d413ca4fd1331ba"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tomwalder/php-appengine-search/zipball/e34a7f6ddf2f5e8dc51487562d413ca4fd1331ba",
+            "reference": "e34a7f6ddf2f5e8dc51487562d413ca4fd1331ba",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "google/appengine-php-sdk": "dev-master",
+            "phpunit/phpunit": "~4.0",
+            "satooshi/php-coveralls": "dev-master"
+        },
+        "time": "2017-03-23 08:17:25",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "src/",
+                "libs/"
+            ],
+            "psr-4": {
+                "Search\\": "src/Search/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "include-path": [
+            "src/"
+        ],
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Tom Walder",
+                "email": "tom@docnet.nu"
+            }
+        ],
+        "description": "Google App Engine Search Library for PHP",
+        "homepage": "https://github.com/tomwalder/php-appengine-search",
+        "keywords": [
+            "appengine",
+            "full text",
+            "gae",
+            "google",
+            "search"
+        ]
+    }
+]

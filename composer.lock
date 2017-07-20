@@ -1,0 +1,77 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "6d3f13d2c0a26e35a2a2bacb81afd721",
+    "content-hash": "a74957368d45b176d19262353233c711",
+    "packages": [
+        {
+            "name": "tomwalder/php-appengine-search",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tomwalder/php-appengine-search.git",
+                "reference": "e34a7f6ddf2f5e8dc51487562d413ca4fd1331ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tomwalder/php-appengine-search/zipball/e34a7f6ddf2f5e8dc51487562d413ca4fd1331ba",
+                "reference": "e34a7f6ddf2f5e8dc51487562d413ca4fd1331ba",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "google/appengine-php-sdk": "dev-master",
+                "phpunit/phpunit": "~4.0",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/",
+                    "libs/"
+                ],
+                "psr-4": {
+                    "Search\\": "src/Search/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "src/"
+            ],
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Tom Walder",
+                    "email": "tom@docnet.nu"
+                }
+            ],
+            "description": "Google App Engine Search Library for PHP",
+            "homepage": "https://github.com/tomwalder/php-appengine-search",
+            "keywords": [
+                "appengine",
+                "full text",
+                "gae",
+                "google",
+                "search"
+            ],
+            "time": "2017-03-23 08:17:25"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "tomwalder/php-appengine-search": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
